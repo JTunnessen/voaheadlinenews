@@ -1,0 +1,59 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "voice of america headline news",
+      "intents": [
+        {
+          "name": "PlayAudio",
+          "samples": [
+            "play",
+            "start",
+            "play my broadcast",
+            "play my broadcast please",
+            "start my broadcast",
+            "start my broadcast please",
+            "start the broadcast",
+            "start the broadcast please",
+            "start the audio",
+            "start the audio please",
+            "play the audio",
+            "play the audio please",
+            "start the news",
+            "start the news please",
+            "play the news",
+            "play the news please"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent"
+        },
+        {
+          "name": "AMAZON.ResumeIntent"
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help me please",
+            "help please",
+            "what should i do",
+            "what's next",
+            "how can I listen to my broadcast",
+            "tell me how to play",
+            "tell me how to stop",
+            "tell me how to resume",
+            "how to stop"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent"
+        },
+        {
+          "name": "AMAZON.CancelIntent"
+        },
+        {
+          "name": "AMAZON.StartOverIntent"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Listen to Voice of America Headline News.",
+          "examplePhrases": [
+            "Alexa, open Voice of America Headline News",
+            "Alexa, play Voice of America Headline News",
+            "Alexa, ask Voice of America Headline News to play"
+          ],
+          "keywords": [
+            "news",
+            "streaming",
+            "broadcast"
+          ],
+          "name": "Voice of America Headline News",
+          "description": "Listen to Voice of America Headline News.\n\nVoice of America Headline News provides international headlines 24/7.\n\nTo start, just say \"Alexa, launch Voice of America Headline News\" or \"Alexa, play Voice of America Headline News\" to start the broadcast\".\n\nAt anytime, you can stop the broadcast by saying \"Alexa, stop\"",
+          "smallIconUri": "https://s3.amazonaws.com/voalogos/voa_logo_108x108.png",
+          "largeIconUri": "https://s3.amazonaws.com/voalogos/voa_logo_512x512.png"
+        },
+        "en-GB": {
+          "summary": "Listen to Voice of America Headline News.",
+          "examplePhrases": [
+            "Alexa, open Voice of America Headline News",
+            "Alexa, play Voice of America Headline News",
+            "Alexa, ask Voice of America Headline News to play"
+          ],
+          "keywords": [
+            "news",
+            "streaming",
+            "broadcast"
+          ],
+          "name": "Voice of America Headline News",
+          "description": "Listen to Voice of America Headline News.\n\nVoice of America Headline News provides international headlines 24/7.\n\nTo start, just say \"Alexa, launch Voice of America Headline News\" or \"Alexa, play Voice of America Headline News\" to start the broadcast\".\n\nAt anytime, you can stop the broadcast by saying \"Alexa, stop\"",
+          "smallIconUri": "https://s3.amazonaws.com/voalogos/voa_logo_108x108.png",
+          "largeIconUri": "https://s3.amazonaws.com/voalogos/voa_logo_512x512.png"
+        },
+        "en-IN": {
+          "summary": "Listen to Voice of America Headline News.",
+          "examplePhrases": [
+            "Alexa, open Voice of America Headline News",
+            "Alexa, play Voice of America Headline News",
+            "Alexa, ask Voice of America Headline News to play"
+          ],
+          "keywords": [
+            "news",
+            "streaming",
+            "broadcast"
+          ],
+          "name": "Voice of America Headline News",
+          "description": "Listen to Voice of America Headline News.\n\nVoice of America Headline News provides international headlines 24/7.\n\nTo start, just say \"Alexa, launch Voice of America Headline News\" or \"Alexa, play Voice of America Headline News\" to start the broadcast\".\n\nAt anytime, you can stop the broadcast by saying \"Alexa, stop\"",
+          "smallIconUri": "https://s3.amazonaws.com/voalogos/voa_logo_108x108.png",
+          "largeIconUri": "https://s3.amazonaws.com/voalogos/voa_logo_512x512.png"
+        },
+        "en-CA": {
+          "summary": "Listen to Voice of America Headline News.",
+          "examplePhrases": [
+            "Alexa, open Voice of America Headline News",
+            "Alexa, play Voice of America Headline News",
+            "Alexa, ask Voice of America Headline News to play"
+          ],
+          "keywords": [
+            "news",
+            "streaming",
+            "broadcast"
+          ],
+          "name": "Voice of America Headline News",
+          "description": "Listen to Voice of America Headline News.\n\nVoice of America Headline News provides international headlines 24/7.\n\nTo start, just say \"Alexa, launch Voice of America Headline News\" or \"Alexa, play Voice of America Headline News\" to start the broadcast\".\n\nAt anytime, you can stop the broadcast by saying \"Alexa, stop\"",
+          "smallIconUri": "https://s3.amazonaws.com/voalogos/voa_logo_108x108.png",
+          "largeIconUri": "https://s3.amazonaws.com/voalogos/voa_logo_512x512.png"
+        },
+        "en-AU": {
+          "summary": "Listen to Voice of America Headline News.",
+          "examplePhrases": [
+            "Alexa, open Voice of America Headline News",
+            "Alexa, play Voice of America Headline News",
+            "Alexa, ask Voice of America Headline News to play"
+          ],
+          "keywords": [
+            "news",
+            "streaming",
+            "broadcast"
+          ],
+          "name": "Voice of America Headline News",
+          "description": "Listen to Voice of America Headline News.\n\nVoice of America Headline News provides international headlines 24/7.\n\nTo start, just say \"Alexa, launch Voice of America Headline News\" or \"Alexa, play Voice of America Headline News\" to start the broadcast\".\n\nAt anytime, you can stop the broadcast by saying \"Alexa, stop\"",
+          "smallIconUri": "https://s3.amazonaws.com/voalogos/voa_logo_108x108.png",
+          "largeIconUri": "https://s3.amazonaws.com/voalogos/voa_logo_512x512.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Include your testing instruction (if any) here",
+      "category": "STREAMING_SERVICE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/src"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

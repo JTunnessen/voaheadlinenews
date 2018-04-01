@@ -1,0 +1,27 @@
+{
+  "name": "Voice_of_America_Headline_News",
+  "version": "1.0.0",
+  "description": "VOA headline news audio player.",
+  "main": "index.js",
+  "scripts": {
+    "test": "Go up one directory to start the test && exit -1"
+  },
+  "keywords": [
+    "voice of america",
+    "headline news",
+    "international news",
+    "broadcast",
+    "voa",
+    "news",
+    "audio player"
+  ],
+  "author": "Jim Tunnessen (techBytesIO)",
+  "license": "See license in ../../LICENSE.txt",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25"
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  }
+}
