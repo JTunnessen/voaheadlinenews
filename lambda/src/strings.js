@@ -7,7 +7,7 @@ let en = {
     "CAN_NOT_SKIP_MSG" : "This is radio, you have to wait for next track to play.",
     "RESUME_MSG" : "Resuming {{ skillName }}",
     "NOT_POSSIBLE_MSG" : "This is radio, you can not do that.  You can ask me to stop or pause to stop listening.",
-    "STOP_MSG" : "Thank you for listening to {{ skillName }}. Good Bye."
+    "STOP_MSG" : "Thank you for listening. Good Bye."
 };
 
 let de = { // TODO translate to German
@@ -17,7 +17,7 @@ let de = { // TODO translate to German
     "CAN_NOT_SKIP_MSG" : "This is radio, you have to wait for next track to play.",
     "RESUME_MSG" : "Resuming {{ skillName }}",
     "NOT_POSSIBLE_MSG" : "This is radio, you can not do that.  You can ask me to stop or pause to stop listening.",
-    "STOP_MSG" : "Thank you for listening to {{ skillName }}. Good Bye."
+    "STOP_MSG" : "Thank you for listening. Good Bye."
 };
 
 module.exports = {
